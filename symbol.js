@@ -30,7 +30,7 @@ console.log(jsUser["email"])//when in [] we should use string, since we are not 
 // console.log(jsUser.full name)//this would just throw out an error because full name isn't an object in jsUser
 console.log(jsUser["full name"])
 
-// now we want to use the symbol we decides as a key.
+// now we want to use the symbol we created as a key.
 console.log(jsUser.mySym)//will not ouput as a symbol 
 console.log([mySym])// correct way of using symbol as a key
 
