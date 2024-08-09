@@ -1,4 +1,4 @@
-// basic string output
+// basic string output , without declaring the string
 console.log("this is a string")
 
 // to declare a string and its output
@@ -12,3 +12,5 @@ c = " non-living object"
 console.log(a+b+c)
 
 // using backticks
+console.log(`This is not a ${a} neither a ${str}.`)
+console.log(`Asteroid is a ${c} and one of it killed ${str}.`)
